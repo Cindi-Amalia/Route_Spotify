@@ -1,0 +1,13 @@
+.navbar {
+    padding: 12px 0;
+    background-color: #A2D5AB;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+ 
+  .navbar__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

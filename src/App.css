@@ -1,0 +1,49 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 100px;
+  color: aliceblue;
+
+}
+
+#home {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content {
+  margin-top: 40px;
+  display: center;
+}
+
+.tracks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  column-gap: 20px;
+  row-gap: 40px;
+  justify-items: center;
+}
+
+input {
+  min-height: 44px;
+  border: 1px solid var(--gray);
+  border-radius: 0px;
+  padding: 4px 16px;
+  outline: none;
+  transition: border .2s ease-in-out;
+  margin-top: 10px;
+}
+
+input:focus {
+  border: 1px solid #A2D5AB;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
